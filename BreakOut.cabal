@@ -1,0 +1,21 @@
+name:                BreakOut
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/githubuser/BreakOut#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Ricardo Dias Azevedo
+maintainer:          example@example.com
+copyright:           2018 Ricardo Dias Azevedo
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable BreakOut
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+  					   gloss
